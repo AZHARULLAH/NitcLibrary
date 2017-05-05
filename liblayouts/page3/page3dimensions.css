@@ -1,0 +1,36 @@
+/* TOP SECTION */
+
+.top div{
+	position: absolute;
+	margin-left: 80px;
+}
+
+.top{	
+	margin-top: 10px;
+}
+
+#chem_id {
+	margin-top: 160px;
+}
+
+#bionano_id  {
+	margin-top: 290px;
+}
+
+#litgeo1_id {
+	margin-top: 350px;
+}
+
+#litgeo2_id{
+	margin-top: 570px;
+}
+
+#entrance{
+	position: absolute;
+}
+
+#reading_area1{
+	position: absolute;
+	margin-left: 130px;
+	margin-top: 460px;
+}

@@ -1,0 +1,54 @@
+/* TOP SECTION */
+
+.top div, .left div, .right div
+{
+	position: absolute;
+}
+
+.top
+{	
+	margin-top: 10px;
+}
+
+#auto_id {
+	margin-top: 10px;
+}
+
+#mech_id {
+	margin-top: 80px;
+}
+
+/* LEFT SECTION */
+
+/* RIGHT SECTION */
+
+#mana2_id {
+	margin-top: 10px;
+}
+
+#chemanu_id {
+	margin-top: 250px;
+}
+
+/* IMAGES */
+
+#entrance
+{
+	position: absolute;
+	top: 350px;
+	margin-left: 30px;
+}
+
+#reading_area1
+{
+	position: absolute;
+	top: 185px;
+	margin-left: 730px;
+}
+
+#reading_area2
+{
+	position: absolute;
+	top: 260px;
+	margin-left: 430px;
+}

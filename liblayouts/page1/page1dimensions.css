@@ -1,0 +1,122 @@
+/* TOP SECTION */
+
+#ece_id1, #ece_id2, #ece_id3 {
+	margin-top: 10px;
+}
+
+.top div, .left div, .right div, .bottom div
+{
+	position: absolute;
+}
+
+/* LEFT SECTION */
+
+#eee_id {
+	margin-top: 100px;
+}
+
+#cse_id {
+	margin-top: 900px;
+}
+
+#coe_id {
+	margin-top: 1150px;
+}
+
+/* RIGHT SECTION */
+
+#cte_id 
+{
+    margin-top: 100px;
+}
+
+#cie_id1 
+{
+    margin-top: 180px;
+}
+
+#cie_id2 
+{
+    margin-top: 480px;
+}
+
+#art_id 
+{
+    margin-top: 680px;
+}
+
+#mtm_id
+{
+    margin-top: 900px;
+}
+
+#phy_id
+{
+    margin-top: 1120px;
+}
+
+/* BOTTOM SECTION */
+
+.bottom
+{
+	margin-top: 1220px;
+}
+
+/* IMAGES */
+
+#entrance
+{
+	position: absolute;
+	top: 400px;
+	margin-left: 45px;
+	border: 4px dotted red;
+}
+
+#opac
+{
+	position: absolute;
+	top: 475px;
+	margin-left: 95px;
+}
+
+#staff
+{
+	position: absolute;
+	top: 380px;
+	margin-left: 610px;
+}
+
+#reading_area1
+{
+	position: absolute;
+	top: 160px;
+	margin-left: 460px;
+}
+
+#reading_area2
+{
+	position: absolute;
+	top: 260px;
+	margin-left: 460px;
+}
+
+#reading_area3
+{
+	position: absolute;
+	top: 930px;
+	margin-left: 460px;
+}
+
+#reading_area4
+{
+	position: absolute;
+	top: 1030px;
+	margin-left: 460px;
+}
+
+#reading_area5
+{
+	position: absolute;
+	top: 1130px;
+	margin-left: 460px;
+}

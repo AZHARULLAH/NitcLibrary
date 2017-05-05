@@ -1,0 +1,41 @@
+<ion-header>
+
+    <ion-navbar>
+
+        <ion-title>
+            Add books that you've borrowed
+        </ion-title>
+
+        <ion-buttons end>
+            <button ion-button icon-only (click)="dismiss('nil')">
+                <ion-icon style="font-size: 40px !important; color: white;" name="close-circle"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+
+        <ion-item>
+            <ion-label floating>Book Title</ion-label>
+            <ion-input type="text" [(ngModel)]="BookTitle"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Date of borrowing</ion-label>
+            <ion-datetime displayFormat="DD/MM/YYYY" min="2016" [(ngModel)]="BorrowedDate"></ion-datetime>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Due date</ion-label>
+            <ion-datetime displayFormat="DD/MM/YYYY" min="2016" [(ngModel)]="DueDate"></ion-datetime>
+        </ion-item>
+
+    </ion-list>
+
+    <button id="custom" ion-button outline icon-right (click)="confirmAdd(BookTitle, BorrowedDate, DueDate)" >Add this book &nbsp;<ion-icon style="color: blue !important;" name="add-circle"></ion-icon></button>
+
+</ion-content>
